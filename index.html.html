@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Calvin Dsouza | B.Tech student and developer, Mumbai</title>
+<meta name="description" content="Portfolio of Calvin Dsouza, B.Tech student at MPSTME Mumbai. Attendance management system, PCA face recognition, web development internship.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230E1726'/%3E%3Cpath d='M5 24L27 9' stroke='%23F5BE1C' stroke-width='3'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;800&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a href="#top" class="brand">Calvin Dsouza</a>
+  <nav aria-label="Sections"><a href="#about">About</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#contact">Contact</a></nav>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="hero-text">
+    <h1>I look for the line that fits the data.</h1>
+    <p class="lead">Hi, I'm Calvin Dsouza. I'm a B.Tech student in Mumbai who builds software and likes finding patterns in data.</p>
+    <p class="lead">Try it: drag any dot on the right and watch the regression line refit.</p>
+  </div>
+  <figure class="plot">
+    <svg id="chart" viewBox="0 0 560 400" role="img" aria-label="Interactive scatter plot with a least-squares regression line. Drag a dot to refit the line."></svg>
+    <figcaption><span id="eq">y = mx + c</span><span id="r2">R² -</span><button id="reset" type="button">Reset dots</button></figcaption>
+  </figure>
+</section>
+
+<section id="about">
+  <h2>About</h2>
+  <div class="cols">
+    <p>I'm a B.Tech student at Mukesh Patel School of Technology Management &amp; Engineering (MPSTME), Mumbai, in the 2022 to 2028 batch. I like building things that solve a plain, practical problem, like keeping track of who showed up to class, and things that show how much structure hides in data, like recognising a face from a few components.</p>
+    <p>In summer 2025 I interned as a web developer, which got me comfortable turning an idea into something people can open in a browser. This site is part of that habit: I coded it by hand, and the plot at the top is the same kind of line-fitting maths I enjoy studying.</p>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <article class="item">
+    <h3>Attendance management system</h3>
+    <p>A basic system for tracking student attendance, so records live in one place instead of on paper.</p>
+    <a href="https://github.com/your-username/attendance-management-system">View code on GitHub</a>
+  </article>
+  <article class="item">
+    <h3>Face recognition using PCA</h3>
+    <p>Eigenfaces in practice: PCA compresses face images into a handful of components, and new faces are matched in that smaller space.</p>
+    <p class="tags">PCA, linear algebra</p>
+    <a href="https://github.com/your-username/face-recognition-pca">View code on GitHub</a>
+  </article>
+</section>
+
+<section id="experience">
+  <h2>Experience</h2>
+  <ol class="timeline">
+    <li><h3>Web development intern</h3><p class="where">10 June 2025 to 10 July 2025</p><p>A one-month internship building for the web, where I practised turning requirements into working pages.</p></li>
+  </ol>
+</section>
+
+<section id="skills">
+  <h2>Skills and interests</h2>
+  <div class="cols">
+    <ul class="chips"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Web development</li><li>PCA</li><li>Linear algebra</li></ul>
+    <p>I'm interested in how software and statistics meet: systems that store data sensibly, and methods that squeeze meaning out of it. I like clear explanations and small tools that work.</p>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Open to internships and research conversations. The quickest way to reach me is email.</p>
+  <p class="links"><a href="mailto:calvindsouza0106@gmail.com">calvindsouza0106@gmail.com</a><a href="https://www.linkedin.com/in/your-username">LinkedIn</a><a href="https://github.com/calvindsouza0106-cmyk">GitHub</a></p>
+</section>
+</main>
+<footer>Built by hand with HTML, CSS and JavaScript. Mumbai, 2026.</footer>
+<script src="script.js"></script>
+</body>
+</html>
